@@ -5,10 +5,14 @@ Jupytext ChangeLog
 -------------------
 
 **Fixed**
+- The Jupytext CLI only suggest --update when the target is an .ipynb file ([#905](https://github.com/mwouts/jupytext/issues/905)) - thanks to [st--](https://github.com/st--) for this contribution
 - We upgraded the jupyter lab extension dependencies and especially `nanoid` to address a security vulnerability ([#904](https://github.com/mwouts/jupytext/issues/904))
 
 **Added**
-- Added Haskell as supported language - thanks to [codeweber](https://github.com/codeweber) for this contribution ([#909](https://github.com/mwouts/jupytext/issues/909))
+- Added Haskell as supported language ([#909](https://github.com/mwouts/jupytext/issues/909)) - thanks to [codeweber](https://github.com/codeweber) for this contribution
+
+**Changed**
+- We have updated the pre-commit hooks and in particular we switched to the first stable version of `black==22.1.0`.
 
 
 1.13.6 (2022-01-11)
